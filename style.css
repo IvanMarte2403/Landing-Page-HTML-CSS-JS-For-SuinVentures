@@ -103,3 +103,30 @@
 .texto-subrayado{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .text{
+        margin-top: 2rem;
+    }
+
+    .text p{
+        padding: 0 4rem;
+    }
+
+    .contenedor-contacto{
+        margin-left: 0rem;
+        margin-right: 0;
+        pad: 0 6rem;
+    }
+
+    .footer{
+        padding: 0 6rem;
+    }
+
+    .footer p{
+        text-align: center;
+    }
+}

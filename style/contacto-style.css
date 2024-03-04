@@ -145,5 +145,27 @@ body{
 .logo-suin{
     position: fixed;
     top: 20%;
-
+    
 }
+
+@media screen and (max-width: 768px) {
+    .contenedor-imagen{
+            width: 100%;
+            margin-bottom: 2rem;
+        }   
+
+    .contenedor-imagen img{
+        width: 80%;
+}   
+
+    .contacto-contenido{
+        flex-direction: column;
+    }
+
+    .logo-suin{
+        left: -10%;
+        width: 90%;
+    }
+
+
+} 
