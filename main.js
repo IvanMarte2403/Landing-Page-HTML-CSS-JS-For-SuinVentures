@@ -24,3 +24,12 @@ window.onload = function() {
     // Actualiza la hora cada segundo
     setInterval(updateTime, 1000);
 }
+
+
+gsap.to(".logo-suin", {
+    x: "100vw",
+    duration: 100, // Reduce la duración de la animación a 2 segundos
+    repeat: -1,
+    yoyo: true,
+    ease: "linear"
+});
