@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 :root{
     --font-familiy-primary: 'JetBrains Mono';
@@ -109,7 +112,7 @@
         width: 100%;
     }
     .text{
-        margin-top: 2rem;
+        margin-top: 2rem !important;
     }
 
     .text p{
