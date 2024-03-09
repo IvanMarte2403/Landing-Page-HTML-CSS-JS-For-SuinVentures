@@ -82,7 +82,7 @@ body{
 
 
 .enlace a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #000;
     font-family: var(--font-familiy-primary);
     text-align: center;
