@@ -26,10 +26,14 @@ window.onload = function() {
 }
 
 
-gsap.to(".logo-suin", {
-    x: "100vw",
-    duration: 100, // Reduce la duración de la animación a 2 segundos
-    repeat: -1,
-    yoyo: true,
-    ease: "linear"
-});
+gsap.timeline({repeat: -1, yoyo: true})
+    .to(".logo-suin", {
+        x: "100vw",
+        duration: 30, // Ajusta la duración a la mitad
+        ease: "linear"
+    })
+    .to(".logo-suin", {
+        x: "-100vw",
+        duration: 30, // Ajusta la duración a la mitad
+        ease: "linear"
+    });
