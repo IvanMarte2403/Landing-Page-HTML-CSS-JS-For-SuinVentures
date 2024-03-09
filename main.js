@@ -29,11 +29,11 @@ window.onload = function() {
 gsap.timeline({repeat: -1, yoyo: true})
     .to(".logo-suin", {
         x: "100vw",
-        duration: 30, // Ajusta la duración a la mitad
+        duration: 50, // Ajusta la duración a la mitad
         ease: "linear"
     })
     .to(".logo-suin", {
         x: "-100vw",
-        duration: 30, // Ajusta la duración a la mitad
+        duration: 50, // Ajusta la duración a la mitad
         ease: "linear"
     });

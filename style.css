@@ -113,6 +113,7 @@ body{
     display: none;
 }
 
+
 /* ========Responsive======== */
 @media screen and (max-width: 768px) {
     .container{
@@ -150,6 +151,7 @@ body{
     }
 
     .enlace a{
+        text-decoration: underline  ;
         padding: 0;
         text-align: center;
         margin: 0;
